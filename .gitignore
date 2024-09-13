@@ -7,8 +7,11 @@ __pycache__/
 *.so
 
 # auto-generated Sphinx api docs
-/docs/generated
-/docs/_static
+docs/generated/
+docs/_static/
+
+# Sphinx documentation
+docs/_build/
 
 # Distribution / packaging
 .Python
@@ -71,9 +74,6 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-
-# Sphinx documentation
-docs/_build/
 
 # PyBuilder
 target/
